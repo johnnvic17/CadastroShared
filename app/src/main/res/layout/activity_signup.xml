@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_sign"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:text="Cadastre-se"
+        android:textColor="@color/white"/>
+
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:layout_below="@id/text_sign"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Nome do usuário"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:layout_below="@id/edit_name"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="E-mail do usuário"/>
+
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:layout_below="@id/edit_email"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Idade do usuário"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/alata"
+        android:backgroundTint="@color/midnightBlue"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Efetuar Cadastro"/>
+
+</RelativeLayout>

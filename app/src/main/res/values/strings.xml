@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CadastroShared</string>
+
+    <string name="hello_name">Olá, Kotlin</string>
+    <string name="home_page">Seja bem-vindo!</string>
+
+    <string name="validate_all_fields">Preencha todos os campos</string>
+</resources>
